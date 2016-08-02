@@ -1,0 +1,53 @@
+<!--View Information-->
+<!--View name : Fake Sign Up-->
+<!--State name : app.fakeSignUp-->
+<!--URL : #app/fakeSignUp-->
+
+<ion-view title="Sign Up">
+    <!--left button on navigation bar-->
+    <ion-nav-buttons side="left">
+        <a ng-click="$ionicGoBack()" class="button back-button buttons button-clear header-item nav-back-btn">
+            <i class="ion-android-arrow-back"></i>
+        </a>
+    </ion-nav-buttons><!--end left button on navigation bar-->
+
+    <!--social sign up section-->
+    <ion-content id="social-sign-up-content">
+        <div class="app-icon">
+            <img src="img/app_icon.png" class="md-card-image">
+        </div>
+        <!--input section-->
+        <md-input-container md-no-float="">
+            <div>
+                <input class="user-name formplaceholder" placeholder="Username">
+            </div>
+        </md-input-container>
+        <md-input-container md-no-float="">
+            <div>
+                <input type="password" class="user-name formplaceholder" placeholder="Password">
+            </div>
+        </md-input-container>
+        <md-input-container md-no-float="">
+            <div>
+                <input type="password" class="user-name formplaceholder" placeholder="Confirm Password">
+            </div>
+        </md-input-container>
+        <md-input-container md-no-float="">
+            <div>
+                <input class="user-name formplaceholder" placeholder="Mail">
+            </div>
+        </md-input-container>
+        <md-checkbox aria-label="CheckboxTerms white-color">
+            I accept terms and conditions.
+        </md-checkbox>
+        <!--end input section-->
+
+        <div class="mybtn">
+          <a class="right md-raised md-button md-default-theme">
+              Sign Up
+          </a>
+        </div>
+
+
+    </ion-content><!--end social sign up section-->
+</ion-view>
