@@ -4,7 +4,7 @@
 
 - Write inside the login controller 
 [Here](https://github.com/brave3d/ConsumerVoice/blob/master/www/templates/themes/authentication/js/controllers.js)
-
+i have done the log in page with its validation 
 
 
 **Ayham**
